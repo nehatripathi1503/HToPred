@@ -11,10 +11,15 @@ The enzyme human topoisomerase IIα (hTopoIIα) is an important anticancer drug 
 
 To run thepredictions, you need:
   numpy==1.11.0
+  
   pandas==0.19.2
+  
   scikit-learn==0.17
+  
   rdkit
+  
   joblib==0.10.3
+  
 
 
 
