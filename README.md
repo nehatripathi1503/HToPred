@@ -11,17 +11,17 @@ The enzyme human topoisomerase IIα (hTopoIIα) is an important anticancer drug 
 
 To run thepredictions, you need:
   numpy==1.11.0
-  
   pandas==0.19.2
-  
   scikit-learn==0.17
-  
   rdkit
-  
   joblib==0.10.3
   
+To perform activity prediction
 
+python Predicting//HToPredActivity.py -i molecule.sdf
 
+To perform type of inhibitor prediction
+python Predicting//HToPredTypeofInhibitor.py -i molecule.sdf
 
 Cite: 
 Tripathi, N.; Shaikh, N.; Bharatam, P. V.; Garg, P., HToPred: a tool for human topoisomerase II inhibitor prediction. Mol. Inform. 2019, 38, 1800046. (https://doi.org/10.1002/minf.201800046)
